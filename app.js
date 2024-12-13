@@ -4,7 +4,7 @@ function Result(){
  
     let conformation = "No"
     for(let i = 0 ; i < CityNames.length; i++){
-    if(UserValue  == CityNames[i].toLowerCase()){
+    if(UserValue.toLowerCase()  == CityNames[i].toLowerCase()){
     conformation = "Yes"
     break;
 }
